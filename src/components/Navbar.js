@@ -108,6 +108,9 @@ const Button = styled(motion.button)`
     border-style:none;
     background-color: #cd853f;
     color:white;
+    @media screen and (max-width: 768px){
+        display: none;
+    }
 `
 
 
